@@ -16,3 +16,11 @@ File Operations:
 -w	file is writable
 -r	file is readable
 -e file exists 
+
+
+Error codes
+
+0 = successfull
+1 = minor problem 
+2 = serious problem 
+3 - 255 = everything else
