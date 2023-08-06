@@ -1,7 +1,7 @@
 Comparisons:
 -eq	equal to for numbers
 ==	equal to for letters
--ne	not equal to
+-ne	not equal to for numbers
 !==	not equal to for letters
 -lt	less than
 -le	less than or equal to
