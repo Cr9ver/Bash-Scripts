@@ -5,9 +5,9 @@
 
 tar cvf /tmp/backup.tar /etc /var
 
-gzip backup.tar 
+gzip /tmp/backup.tar 
 
-find backup.tar.gz -mtime -1 -type f -print &> /dev/null
+find /tmp/backup.tar.gz -mtime -1 -type f -print &> /dev/null
 
 if [ $? -eq 0 ]
 then
