@@ -16,6 +16,7 @@ File Operations:
 -w	file is writable
 -r	file is readable
 -e file exists 
+! -e file does not exist 
 
 
 Error codes
