@@ -16,6 +16,6 @@ echo "Please enter date (e.g 18)":
 read c
 echo ################
 
-last | grep "$d $m $c" | awk '{print $1}'
+last | grep "$a $b $c" | awk '{print $1}'
 
 
