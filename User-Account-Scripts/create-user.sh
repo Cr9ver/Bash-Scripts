@@ -3,6 +3,8 @@
 # Author: Daniel
 # Descitpion: This script would create a user account 
 
+# grep username /etc/passwd: code to verify if user exists
+
 echo "Please provide a username:"
 read username
 echo #########
