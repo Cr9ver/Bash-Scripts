@@ -23,8 +23,13 @@ then
 fi
 ###################################
 
-useradd "$username"
 
+echo "Please provide user description?"
+read description
+echo
+
+
+useradd "$username" -c "$description"
 ###################################
 if [ $? -eq 0 ] 
 then
