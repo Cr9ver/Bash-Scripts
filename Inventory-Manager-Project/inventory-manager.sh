@@ -1,5 +1,5 @@
 #!/bin/bash
-#Author: Daniel Olakunri 
+#Author: Daniel
 #Description: This script would ask to add or delete a record from the database file
 
 echo #####################

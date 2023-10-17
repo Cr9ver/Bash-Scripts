@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Author: Daniel Olakunri 
+#Author: Daniel 
 #Description: This script would add system inventory to the database file
 
 echo "Please enter hostname"
