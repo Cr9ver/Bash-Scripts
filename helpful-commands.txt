@@ -1,0 +1,14 @@
+awk -F: '{print $1}' /etc/passwd (list all users)
+change -l username (check password aging policy on user)
+chage username (set policy for user)
+cat /etc/passwd (view usernames with passwords)
+journactl (monitor system activity)
+systemctl (view runing services) or systemctl -a 
+rpm -qa (list all installed packages) or yum list installed 
+rpm -e packagename (get rid of package) or yum remove packagename
+netstat -tunlp (view listening ports)  ### port 53 is the standard port for dns
+firewall-cmd -help (see information releated to setting up firewall)
+iptables --list (display rules in iptables firewall) 
+cd /etc/sysconfig/iptables-config (file in this path can be modified to set iptables rules)
+sestatus (check if selinux is enabled)
+stat filename (display detailed information about a file or directory)
