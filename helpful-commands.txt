@@ -13,6 +13,7 @@ cd /etc/sysconfig/iptables-config (file in this path can be modified to set ipta
 sestatus (check if selinux is enabled)
 stat filename (display detailed information about a file or directory)
 getenforce (check selinux mode)
+apropos $pattern (The apropos command is often used when you are not sure about the exact command or option you need but want to discover related commands or documentation)
 
 
 System Performance commands
