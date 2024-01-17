@@ -15,6 +15,7 @@ stat filename (display detailed information about a file or directory)
 getenforce (check selinux mode)
 echo -n $text-to-convert | base64 (encode text with base64)
 echo "your_base64_encoded_text" | base64 --decode (decode base64)
+apropos $pattern (The apropos command is often used when you are not sure about the exact command or option you need but want to discover related commands or documentation)
 
 
 System Performance commands
