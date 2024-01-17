@@ -13,6 +13,8 @@ cd /etc/sysconfig/iptables-config (file in this path can be modified to set ipta
 sestatus (check if selinux is enabled)
 stat filename (display detailed information about a file or directory)
 getenforce (check selinux mode)
+echo -n $text-to-convert | base64 (encode text with base64)
+echo "your_base64_encoded_text" | base64 --decode (decode base64)
 
 
 System Performance commands
