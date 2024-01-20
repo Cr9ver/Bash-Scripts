@@ -18,7 +18,7 @@ echo "your_base64_encoded_text" | base64 --decode (decode base64)
 apropos $pattern (The apropos command is often used when you are not sure about the exact command or option you need but want to discover related commands or documentation)
 grep -v $pattern (command ignore pattern with grep)
 grep -i $pattern (command to ignore case sensitivity)
-
+dpkg --list | grep ^ii | cut -d' ' -f3 (list all installed packages on ubuntu)
 
 System Performance commands
 df -h (check disk space)
