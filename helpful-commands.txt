@@ -21,6 +21,13 @@ grep -i $pattern (command to ignore case sensitivity)
 dpkg --list | grep ^ii | cut -d' ' -f3 (list all installed packages on ubuntu)
 du -h | sort -rh (sort files from largest to least)
 
+#### scp with example
+scp /path/to/local/file.txt username@remote-server:/path/on/remote/server/ (Copy a File from Local to Remote)
+scp username@remote-server:/path/on/remote/server/file.txt /path/to/local/ (Copy a File from Remote to Local)
+
+#### sed with examples
+sed 's/old-text/new-text/g' filename (Replace "old-text" with "new-text" in a file)
+sed '/pattern/d' filename (Delete lines that match a specific pattern)
 
 System Performance commands
 df -h (check disk space)
