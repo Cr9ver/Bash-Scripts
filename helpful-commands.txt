@@ -19,6 +19,8 @@ apropos $pattern (The apropos command is often used when you are not sure about 
 grep -v $pattern (command ignore pattern with grep)
 grep -i $pattern (command to ignore case sensitivity)
 dpkg --list | grep ^ii | cut -d' ' -f3 (list all installed packages on ubuntu)
+du -h | sort -rh (sort files from largest to least)
+
 
 System Performance commands
 df -h (check disk space)
