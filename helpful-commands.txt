@@ -22,6 +22,7 @@ dpkg --list | grep ^ii | cut -d' ' -f3 (list all installed packages on ubuntu)
 du -h | sort -rh (sort files from largest to least)
 chown -R new_owner:new_group directory_or_file (recursively give permission to directory or file)
 grep -B2 $pattern (showing previous 2 preceeding lines before with line of result)
+echo -n $text-to-encode | base64 (To encode text in base64)
 
 #### scp with example
 scp /path/to/local/file.txt username@remote-server:/path/on/remote/server/ (Copy a File from Local to Remote)
