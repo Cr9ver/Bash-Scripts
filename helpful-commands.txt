@@ -23,6 +23,7 @@ du -h | sort -rh (sort files from largest to least)
 chown -R new_owner:new_group directory_or_file (recursively give permission to directory or file)
 grep -B2 $pattern (showing previous 2 preceeding lines before with line of result)
 echo -n $text-to-encode | base64 (To encode text in base64)
+echo -n $text-to-decode | base64 --decode (To decode base64 text)
 
 #### scp with example
 scp /path/to/local/file.txt username@remote-server:/path/on/remote/server/ (Copy a File from Local to Remote)
